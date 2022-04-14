@@ -18,7 +18,10 @@ echo "Server: $server";
 echo "Port: $port";
 echo -e "Turbo: $turbo${NC}";
 
+# go back
+cd ..
 
+# run
 while :
 do
   sudo proxychains python3 DRipper.py -t $turbo -p $port -s $server
