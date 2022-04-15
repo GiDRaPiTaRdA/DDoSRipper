@@ -8,7 +8,7 @@ do
     case "${flag}" in
         s) server=${OPTARG};;
         p) port=${OPTARG};;
-	t) turbo=${OPTARG};;
+        t) turbo=${OPTARG};;
     esac
 done
 
@@ -26,4 +26,12 @@ while :
 do
   sudo proxychains python3 DRipper.py -t $turbo -p $port -s $server
 done
+
+
+
+
+
+
+
+
 
