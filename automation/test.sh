@@ -1,6 +1,8 @@
 #!/bin/bash
 
-IFS=$'\n' read -d '' -r -a lines < target.txt
+lns=$(wget -qO- https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/target.txt)
+
+IFS=$'\n' read -d '' -r -a lines <<< $lns
 
 server=${lines[0]}
 port=${lines[1]}
