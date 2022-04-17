@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-#!/bin/bash
-
-lns=$(wget -qO- https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/target.txt)
-
-IFS=$'\n' read -d '' -r -a lines <<< $lns
-
-server=${lines[0]}
-port=${lines[1]}
-
-echo "Server ${server}"
-echo "Port ${port}"
-=======
 #!/bin/bash
 
 lns=$(wget -qO- https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/target.txt)
@@ -26,4 +13,3 @@ echo "Server ${server}"
 echo "Port ${port}"
 
 echo "All $server : $port"
->>>>>>> fa5d27e2378aca1eea02c43460c232926ecdd071
