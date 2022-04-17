@@ -18,6 +18,16 @@ echo "Server: $server";
 echo "Port: $port";
 echo -e "Turbo: $turbo${NC}";
 
+if [ -z $port ]; then
+    port="80"
+fi
+
+if [ -z $server ]; then
+    echo "Server -p is empty"
+    exit 0
+fi
+
+
 # go back
 cd ..
 
