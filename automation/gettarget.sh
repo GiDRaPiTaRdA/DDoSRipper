@@ -11,7 +11,7 @@ done
 
 uri="https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/target.txt"
 
-declare target=($(wget -qO- $uri))
+declare target=($(wget -qO- --no-cache --no-cookies --no-check-certificate $uri))
 
 server=${target[0]}
 port=${target[1]}
