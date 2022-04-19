@@ -17,6 +17,10 @@ if [ -z $turbo ]; then
     turbo="300"
 fi
 
+if [ -z $timeout ]; then
+    turbo="30m"
+fi
+
 while :
 do
     sudo ./updateproxies.sh
