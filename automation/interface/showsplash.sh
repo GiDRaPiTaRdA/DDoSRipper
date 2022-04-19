@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./grafiti1.sh
+./automation/bin/interface/grafiticolored.sh
 
 
 # loading animation
