@@ -38,9 +38,8 @@ lasttargetfile=lasttartget.log
 touch $lasttargetfile
 echo "$(date) $server : $port" > $lasttargetfile
 
-
-# go back
-cd ..
+#go back
+#cd ../../
 
 # run
 while :

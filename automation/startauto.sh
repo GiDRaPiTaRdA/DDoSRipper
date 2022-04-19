@@ -23,12 +23,12 @@ fi
 
 while :
 do
-    sudo ./updateproxies.sh
+    sudo ./automation/bin/updateproxies.sh
 
     if [ -z $serverinpt ] || [ -z $portinpt ]; then
         echo -e "${YELLOW}GET target from GIT${NC}"
 
-        declare target=($(./gettarget.sh))
+        declare target=($(./automation/bin/gettarget.sh))
 
         server=${target[0]}
         server="${server:0:${#server}-1}"
@@ -44,5 +44,5 @@ do
         port=$portinpt
     fi
 
-    sudo timeout ${timeout} ./loopconnect.sh -t ${turbo} -p ${port} -s ${server}
+    sudo timeout ${timeout} ./automation/bin/loopconnect.sh -t ${turbo} -p ${port} -s ${server}
 done
