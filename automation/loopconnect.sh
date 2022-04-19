@@ -2,6 +2,7 @@
 
 YELLOW='\033[0;33m'
 CYAN='\033[0;36m'
+RED='\033[0;31m'
 NC='\033[0m' # No Color
 
 while getopts s:p:t: flag
@@ -29,7 +30,8 @@ if [ -z $turbo ]; then
 fi
 
 
-echo -e "${YELLOW}Start loop connect	${CYAN}$server:$port${YELLOW}	TURBO:$turbo${NC}"
+echo -e "${YELLOW}Start loop connect ${CYAN}$server:$port${YELLOW}" 
+echo -e "${RED}turbo:$turbo${NC}"
 
 # log last target
 lasttargetfile=lasttartget.log
