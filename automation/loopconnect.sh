@@ -1,6 +1,7 @@
 #!/bin/bash
 
 YELLOW='\033[0;33m'
+CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 while getopts s:p:t: flag
@@ -12,24 +13,29 @@ do
     esac
 done
 
-echo -e "${YELLOW}Start loop connect"
 
-echo "Server: $server";
-echo "Port: $port";
-echo -e "Turbo: $turbo${NC}";
-
+# Set default values
 if [ -z $port ]; then
-    port="80"
+    port=80
 fi
 
 if [ -z $server ]; then
-    echo "Server -p is empty"
+    echo "Server -s is empty"
     exit 0
 fi
 
-lasttargetfile = lasttartget.txt
+if [ -z $turbo ]; then
+    turbo=300
+fi
+
+
+echo -e "${YELLOW}Start loop connect	${CYAN}$server:$port${YELLOW}	TURBO:$turbo${NC}"
+
+# log last target
+lasttargetfile=lasttartget.log
 touch $lasttargetfile
-echo "$(date) $server : $port" >> $lasttargetfile
+echo "$(date) $server : $port" > $lasttargetfile
+
 
 # go back
 cd ..
