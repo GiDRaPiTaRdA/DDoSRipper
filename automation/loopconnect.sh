@@ -27,6 +27,9 @@ if [ -z $server ]; then
     exit 0
 fi
 
+lasttargetfile = lasttartget.txt
+touch $lasttargetfile
+echo "$(date) $server : $port" >> $lasttargetfile
 
 # go back
 cd ..
