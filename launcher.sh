@@ -15,7 +15,7 @@ automation_dir="automation"
 config_dir="$automation_dir/.config"
 
 echo -e "${YELLOW}git pull run.sh${NC}"
-wget -N -P "$automation_dir" "https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/run.sh"
+#wget -N -P "$automation_dir/" "https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/run.sh"
 #cd $automation_dir
 chmod +x automation/run.sh
 

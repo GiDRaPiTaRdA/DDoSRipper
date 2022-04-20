@@ -8,11 +8,12 @@ BLUE='\033[1;34m'
 repo="https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/"
 
 # const dirs
-subdir="bin"
+subdir="automation/bin"
 automation_dir="automation"
 config_dir=".config"
 interface_dir="interface"
 
+echo -e "${YELLOW}\nUpdating scripts . . .\n${NC}"
 
 download () {
   filename=$1
@@ -22,11 +23,14 @@ download () {
 
   mkdir -p $targetdir
 
-  echo -e "${YELLOW}git pull $targetdir$filename${NC}"
+  # local file pass
+  filepass="$targetdir/$filename"
+
+  echo -e "${YELLOW}git pull $filepass${NC}"
   wget -N -P $targetdir "${repo}${reporoot}/$filename"
 
   if [ $isexecutable = true ]; then
-    chmod +x "$targetdir/$filename"
+    chmod +x $filepass
   fi
 
 }
@@ -46,23 +50,26 @@ download "turbo.cfg"  $remoteconfig $localconfig false
 download "timeout.cfg" $remoteconfig $localconfig false
 
 # automation/interface
-remoteinterface="$automation_dir/$interface_dir"
-localinterface="${subdir}/$interface_dir"
-download "grafiticolored.sh" $remoteinterface $localinterface true
-download "showsplash.sh" $remoteinterface $localinterface true
+#remoteinterface="$automation_dir/$interface_dir"
+#localinterface="${subdir}/$interface_dir"
+#download "grafiticolored.sh" $remoteinterface $localinterface true
+#download "showsplash.sh" $remoteinterface $localinterface true
 
+echo -e "\n${YELLOW}Updated files:${NC}"
 
-# automation/.config
-echo -e "ls $localconfig/$BLUE"
-ls $localconfig
-echo -e "${NC}"
-
-# automation/interface
-echo -e "ls $localinterface/$GREEN"
-ls $localinterface
-echo -e "${NC}"
 
 # automation
-echo -e "ls  $localroot/$GREEN"
-ls $localroot
-echo -e "${NC}"
+echo -e -n "$localroot/$GREEN\t"
+echo -e -n $(ls $localroot)
+echo -e $NC
+
+# automation/.config
+echo -e -n "$localconfig/$BLUE\t"
+echo -n $(ls $localconfig)
+echo -e $NC
+
+# automation/interface
+#echo -e "ls $localinterface/$GREEN"
+#ls $localinterface
+#echo -e $NC
+
