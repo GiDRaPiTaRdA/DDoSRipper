@@ -1,9 +1,22 @@
-#!/bash/bash
+#!/bin/bash
 
-wget -N "https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/update.sh"
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+RED='\033[0;31m'
 
-./update.sh
+REDL='\033[1;31m'
+YELLOWL='\033[1;33m'
+BLUEL='\033[1;34m'
+GREENL='\033[0;32m'
 
-cd automation/
+automation_dir="automation"
+config_dir="$automation_dir/.config"
 
-./startauto.sh
+echo -e "${YELLOW}git pull run.sh${NC}"
+wget -N -P "$automation_dir" "https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/run.sh"
+#cd $automation_dir
+chmod +x automation/run.sh
+
+./automation/run.sh
