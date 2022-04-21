@@ -59,7 +59,7 @@ echo -e "\n"
 
 # pull updater
 echo -e "${YELLOW}git pull update.sh${NC}"
-wget -N -P "automation" "https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/update.sh"
+wget -N -P "automation" "https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/update.sh"
 chmod +x automation/update.sh
 
 sleep 1
