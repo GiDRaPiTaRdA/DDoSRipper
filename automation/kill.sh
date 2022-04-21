@@ -39,4 +39,4 @@ killprocess "DRipper.py"
 # pkill -TERM -P 27888
 # sudo kill -9 17070
 # pgrep -f "launcher.sh"
-# sudo kill -9 $(pgrep -f "launcher.sh")C
+# sudo kill -9 $(pgrep -f "launcher.sh")
