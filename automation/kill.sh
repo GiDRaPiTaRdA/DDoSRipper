@@ -34,6 +34,7 @@ killprocess "startauto.sh"
 killprocess "loopconnect.sh"
 killprocess "DRipper.py"
 
+# ps -ef -H
 # ps aux -h process view hierarchy
 # pkill -TERM -P 27888
 # sudo kill -9 17070
