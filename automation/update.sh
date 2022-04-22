@@ -48,8 +48,8 @@ download "kill.sh" $remoteroot $localroot true
 remoteconfig="$automation_dir/$config_dir"
 localconfig="${subdir}/$config_dir"
 
-test -f "${localconfig}/turbo.cfg" || download "turbo.cfg"  $remoteconfig $localconfig false
-test -f "${localconfig}/timeout.cfg" || download "timeout.cfg" $remoteconfig $localconfig false
+test -f "${localconfig}/turbo.cfg" && echo -e "${YELLOW}File ${localconfig}/turbo.cfg already exists${NC}" || download "turbo.cfg"  $remoteconfig $localconfig false
+test -f "${localconfig}/timeout.cfg" && echo -e "${YELLOW}File ${localconfig}/timeout.cfg already exists${NC}"  || download "timeout.cfg" $remoteconfig $localconfig false
 
 # automation/interface
 #remoteinterface="$automation_dir/$interface_dir"
