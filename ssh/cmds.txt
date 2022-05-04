@@ -29,5 +29,13 @@ netsh int portproxy reset all
 # get wsl hostname
 wsl hostname -I
 
+# screen create
+screen -S name -U
+# screen connect
+screen -x name -U
+# exit inside screen
+ctrl + A,D
+exit
+
 # https://www.hanselman.com/blog/how-to-ssh-into-wsl2-on-windows-10-from-an-external-machine
 # https://www.illuminiastudios.com/dev-diaries/ssh-on-windows-subsystem-for-linux/
