@@ -1,1 +1,33 @@
+sudo apt update
+sudo apt install ssh --fix-missing
+
+# edit ssh config
+sudo nano /etc/ssh/sshd_config
+AllowUsers yourusername
+# Port 2222
+# ListenAddress 0.0.0.0
+
+# service ssh
+service ssh start
+service ssh stop
+service ssh --full-restart
+service ssh status
+
+# Allow ssh service to start no pass
+sudo visudo
+%sudo ALL=NOPASSWD: /usr/sbin/sshd after %sudo  ALL=(ALL:ALL)
+%sudo ALL=(ALL) NOPASSWD: /etc/init.d/ssh
+
+
+# forward ports
+netsh interface portproxy add v4tov4 listenaddress=0.0.0.0 listenport=2222 connectaddress=172.23.129.80 connectport=2222
+netsh interface portproxy show all
+# add rule for port 2222 in firewall
 netsh advfirewall firewall add rule name=”Open Port 2222 for WSL2” dir=in action=allow protocol=TCP localport=2222
+netsh int portproxy reset all
+
+# get wsl hostname
+wsl hostname -I
+
+# https://www.hanselman.com/blog/how-to-ssh-into-wsl2-on-windows-10-from-an-external-machine
+# https://www.illuminiastudios.com/dev-diaries/ssh-on-windows-subsystem-for-linux/
