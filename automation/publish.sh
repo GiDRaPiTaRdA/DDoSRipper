@@ -1,6 +1,8 @@
 #!/bin/bash
 
+cd automation
 sha1sum proxychains.conf > proxychains.conf.sha1
+cd ..
 
 git fetch
 git add .
