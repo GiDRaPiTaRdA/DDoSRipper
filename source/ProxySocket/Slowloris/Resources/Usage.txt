@@ -1,0 +1,18 @@
+SharpLoris - C# Slowloris Attack HTTP(S) Attack Implementation
+
+Example usage:
+  sharploris host=example.com ssl=true delay=1000
+    
+Arguments:
+  ssl=<true/false>. Chooses whether to use SSL or not
+   Default: false
+  port=<ushort>. TCP port to communicate with the being attacked server through
+   Default: 80, if SSL is enabled 443
+  sockcount=<int>. Amount of connections to be kept with the server
+   Default: 8
+  delay=<int>. Delay between keep alive data (in milliseconds)
+   Default: 15000
+  host=<hostname|IP>. The IP or hostname of the server being attacked
+   Default: local IP
+
+All listed arguments are optional, but if none are manually assigned, you will see this screen.

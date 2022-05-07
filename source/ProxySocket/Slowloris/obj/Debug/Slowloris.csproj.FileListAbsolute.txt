@@ -1,0 +1,10 @@
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\obj\Debug\Slowloris.Properties.Resources.resources
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\obj\Debug\Slowloris.csproj.GenerateResource.cache
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\obj\Debug\Slowloris.csproj.CoreCompileInputs.cache
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\obj\Debug\Slowloris.csproj.AssemblyReference.cache
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\obj\Debug\Slowloris.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\bin\Debug\Slowloris.exe.config
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\bin\Debug\Slowloris.exe
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\bin\Debug\Slowloris.pdb
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\obj\Debug\Slowloris.exe
+C:\Users\Maxim\Documents\Source\web\ProxySocket\Slowloris\obj\Debug\Slowloris.pdb

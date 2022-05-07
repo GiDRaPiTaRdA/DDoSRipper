@@ -1,0 +1,13 @@
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\bin\Debug\TestConcole.exe.config
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\bin\Debug\TestConcole.exe
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\bin\Debug\TestConcole.pdb
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\obj\Debug\ProxyChecker.csproj.AssemblyReference.cache
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\obj\Debug\ProxyChecker.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\obj\Debug\TestConcole.exe.config
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\obj\Debug\ProxyChecker.csproj.CoreCompileInputs.cache
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\obj\Debug\ProxyChecker.csproj.Fody.CopyLocal.cache
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\obj\Debug\ProxyChecker.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\obj\Debug\ProxyChecker.csproj.CopyComplete
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\obj\Debug\TestConcole.exe
+C:\Users\Maxim\Documents\Source\web\ProxySocket\TestConcole\obj\Debug\TestConcole.pdb

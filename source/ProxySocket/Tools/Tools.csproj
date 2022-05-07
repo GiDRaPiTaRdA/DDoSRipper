@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Extreme.Net.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Extreme.Net.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GiDRaPiTaRdA.CustomConsole" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Extreme.Net">
+      <HintPath>Extreme.Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
