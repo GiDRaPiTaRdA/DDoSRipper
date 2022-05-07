@@ -1,8 +1,0 @@
-C:\Users\Maxim\Documents\Source\web\ProxySocket\testapp\bin\Debug\testapp.exe.config
-C:\Users\Maxim\Documents\Source\web\ProxySocket\testapp\bin\Debug\testapp.exe
-C:\Users\Maxim\Documents\Source\web\ProxySocket\testapp\bin\Debug\testapp.pdb
-C:\Users\Maxim\Documents\Source\web\ProxySocket\testapp\obj\Debug\testapp.csproj.AssemblyReference.cache
-C:\Users\Maxim\Documents\Source\web\ProxySocket\testapp\obj\Debug\testapp.csproj.SuggestedBindingRedirects.cache
-C:\Users\Maxim\Documents\Source\web\ProxySocket\testapp\obj\Debug\testapp.csproj.CoreCompileInputs.cache
-C:\Users\Maxim\Documents\Source\web\ProxySocket\testapp\obj\Debug\testapp.exe
-C:\Users\Maxim\Documents\Source\web\ProxySocket\testapp\obj\Debug\testapp.pdb

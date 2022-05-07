@@ -1,8 +1,0 @@
-C:\Users\Maxim\Documents\Source\web\ProxySocket\FloodTest\bin\Debug\FloodTest.exe.config
-C:\Users\Maxim\Documents\Source\web\ProxySocket\FloodTest\bin\Debug\FloodTest.exe
-C:\Users\Maxim\Documents\Source\web\ProxySocket\FloodTest\bin\Debug\FloodTest.pdb
-C:\Users\Maxim\Documents\Source\web\ProxySocket\FloodTest\obj\Debug\FloodTest.csproj.CoreCompileInputs.cache
-C:\Users\Maxim\Documents\Source\web\ProxySocket\FloodTest\obj\Debug\FloodTest.exe
-C:\Users\Maxim\Documents\Source\web\ProxySocket\FloodTest\obj\Debug\FloodTest.pdb
-C:\Users\Maxim\Documents\Source\web\ProxySocket\FloodTest\obj\Debug\FloodTest.csproj.AssemblyReference.cache
-C:\Users\Maxim\Documents\Source\web\ProxySocket\FloodTest\obj\Debug\FloodTest.csproj.SuggestedBindingRedirects.cache
