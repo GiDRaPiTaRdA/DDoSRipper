@@ -31,15 +31,20 @@ do
     if [ -z $serverinpt ] || [ -z $portinpt ]; then
         echo -e "${YELLOW}GET target from GIT${NC}"
 
-        declare target=($(./automation/bin/gettarget.sh))
+        #declare target=($(./automation/bin/gettarget.sh))
 
-        server=${target[0]}
-        server="${server:0:${#server}-1}"
+        #server=${target[0]}
+        #server="${server:0:${#server}-1}"
 
-        port=${target[1]}
+        #port=${target[1]}
 
         #server="79.142.100.87"
         #port="80"
+
+	target=$(./automation/bin/gettarget.sh)
+
+	server=$(echo -n $target | awk '{print $1;}')
+	port=$(echo -n $target | awk '{print $2;}')
 
         echo "Server $server : $port"
     else
