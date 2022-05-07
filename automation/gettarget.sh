@@ -11,13 +11,18 @@ done
 
 uri="https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master/automation/target.txt"
 
-declare target=($(wget -qO- --no-cache --no-cookies --no-check-certificate $uri))
+#declare target=($(wget -qO- --no-cache --no-cookies --no-check-certificate $uri))
 
-server=${target[0]}
-port=${target[1]}
+#server=${target[0]}
+#port=${target[1]}
+
+target=$(wget -qO- --no-cache --no-cookies --no-check-certificate $uri)
+
+server=$(echo -n $target | awk '{print $1;}')
+port=$(echo -n $target | awk '{print $2;}')
 
 #fix url
-server="${server:0:${#server}-1}"
+#server="${server:0:${#server}-1}"
 #server=$(echo $server|tr -d '\n')
 #server=${server%$'\n'}
 
@@ -37,5 +42,6 @@ fi
 
 # output for return
 if [ -z $urlout ] && [ -z $output ]; then
-    printf '%s\n' "${target[@]}"
+    echo -n $target
+    #printf '%s\n' "${target[@]}"
 fi
