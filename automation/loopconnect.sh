@@ -44,7 +44,7 @@ echo "$(date) $server : $port" > $lasttargetfile
 # run
 while :
 do
-  read -p 'Wait 5s to start\n' -t 5 
+  read -t 2
   sudo proxychains python3 DRipper.py -t $turbo -p $port -s $server
 done
 

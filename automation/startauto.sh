@@ -23,6 +23,9 @@ fi
 
 while :
 do
+
+    read -t 2
+
     sudo ./automation/bin/updateproxies.sh
 
     if [ -z $serverinpt ] || [ -z $portinpt ]; then
@@ -43,8 +46,6 @@ do
 	server=$serverinpt
         port=$portinpt
     fi
-
-    read -t 5 -p 'Wait 5s to startaauto\n'
 
     sudo timeout ${timeout} ./automation/bin/loopconnect.sh -t ${turbo} -p ${port} -s ${server}
 done
