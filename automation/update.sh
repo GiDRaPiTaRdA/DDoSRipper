@@ -43,6 +43,7 @@ download "updateproxies.sh" $remoteroot $localroot true
 download "loopconnect.sh" $remoteroot $localroot true
 download "startauto.sh" $remoteroot $localroot true
 download "kill.sh" $remoteroot $localroot true
+download "updateproxiesloop.sh" $remoteroot $localroot true
 
 # automatiom/.config
 remoteconfig="$automation_dir/$config_dir"
