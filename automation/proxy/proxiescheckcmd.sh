@@ -19,7 +19,7 @@ fi
 
 while :
 do
-    /mnt/c/Users/Maxim/Documents/Source/web/ProxySocket/TestConcole/bin/Debug/TestConcole.exe ip socks5 $get C:/Users/Maxim/Documents/Source/web/prox/good/socks5.csv true false
+    ./automation/proxy/TestConcole.exe ip socks5 $get automation/proxy/data/socks5.csv true false
     ./automation/publish.sh
     echo -e "${YELLOW}Wait $delay${NC}"
     sleep $delay
