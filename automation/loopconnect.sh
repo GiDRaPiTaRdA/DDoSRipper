@@ -44,11 +44,9 @@ echo "$(date) $server : $port" > $lasttargetfile
 # run
 while :
 do
-  read -p 'Wait 5s to start' -t 5 
+  read -p 'Wait 5s to start\n' -t 5 
   sudo proxychains python3 DRipper.py -t $turbo -p $port -s $server
 done
-
-echo -e "loopconnect canceled"
 
 
 

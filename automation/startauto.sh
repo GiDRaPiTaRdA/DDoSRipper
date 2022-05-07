@@ -44,5 +44,7 @@ do
         port=$portinpt
     fi
 
+    read -t 5 -p 'Wait 5s to startaauto'
+
     sudo timeout ${timeout} ./automation/bin/loopconnect.sh -t ${turbo} -p ${port} -s ${server}
 done
