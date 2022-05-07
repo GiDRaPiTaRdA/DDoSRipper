@@ -16,7 +16,7 @@ return $?
 }
 
 repo="https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master"
-url="${repo}/automation/proxychains.conf.sha1"
+url="${repo}/automation/proxy/data/proxychains.conf.sha1"
 
 filename=/etc/proxychains.conf
 

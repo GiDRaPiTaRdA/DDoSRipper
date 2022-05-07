@@ -3,7 +3,7 @@
 YELLOW='\033[0;33m'
 NC='\033[0m' # No Color
 
-get=5
+get=1000
 
 
 while getopts t: flag
