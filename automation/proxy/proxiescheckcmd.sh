@@ -14,7 +14,7 @@ do
 done
 
 if [ -z "$delay" ]; then
-    delay="15m"
+    delay="300"
 fi
 
 while :
@@ -22,5 +22,5 @@ do
     ./automation/proxy/TestConcole.exe ip socks5 $get automation/proxy/data/socks5.csv true false
     ./automation/publish.sh
     echo -e "${YELLOW}Wait $delay${NC}"
-    sleep $delay
+    read -t $delay
 done
