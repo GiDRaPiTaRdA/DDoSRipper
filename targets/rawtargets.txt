@@ -1,106 +1,132 @@
 
-https://www.ozon.ru/category/elektronika-15500/
-178.248.238.156 (80/tcp, 443/tcp)
-https://seller.ozon.ru/
-178.248.238.157 (80/tcp, 443/tcp, 443/https)
-https://docs.ozon.ru/common/
-https://business.ozon.ru/retail
-95.181.181.253 (80/tcp, 443/tcp, 443/https)
-https://brandlab.ozon.ru/pick_up
-https://global.ozon.com/
-https://ir.ozon.com/sustainability/
-https://seller.learning.ozon.ru/0/login
-https://gosuslugi.ozon.ru/
-https://performance.ozon.ru/
-https://corp.ozon.com/
-https://seller-edu.ozon.ru/
-https://rocket.ozon.ru/
-91.223.93.2 (80/tcp, 443/tcp, 443/https, 8443/tcp, 8443/https)
-91.223.93.3 (80/tcp, 443/tcp, 443/https, 8443/tcp, 8443/https)
-https://profit.ozon.ru/
-195.34.20.248 (80/tcp, 443/tcp, 443/https, 8443/tcp, 8443/https)
-91.223.93.15 (80/tcp, 443/tcp, 443/https, 8443/tcp)
-https://card.ozon.ru/
-194.85.18.1 (80/tcp, 443/tcp, 443/https)
-https://3ds-v2-challenge-test.bank.ozon.ru
-178.248.232.171 (80/tcp, 443/tcp)
-https://crm.ozon.ru/
-185.73.193.39 (80/tcp, 443/tcp)
-185.73.193.40 (80/tcp, 443/tcp)
-https://partner.ozon.ru/
-https://avia.ozon.ru/
-https://opendata.ozon.ru/
-185.73.193.7 (80/tcp, 443/tcp, 8443/tcp)
-185.73.193.8 (80/tcp, 443/tcp, 8443/tcp)
+http://ocsp.gisca.ru/qualifiedgiscav3/ocsp.srf
+http://ocsp.gisca.ru/qualifiedgisca2020/ocsp.srf
+95.161.154.198 (80/tcp)
 
-https://www.citilink.ru/configurator/
-178.248.234.66 (80/tcp, 443/tcp)
-https://job.citilink.ru/vakansii/
-185.99.8.6 (80/tcp, 443/tcp)
+http://service.itk23.ru/itcom2020/ocsp.srf
+http://service.itk23.ru/itcom2019-r/ocsp.srf
+http://service.itk23.ru/ocsp2cav0/ocsp.srf
+http://service.itk23.ru/itk2012-2019/ocsp.srf
+http://service.itk23.ru/itk2012-2020/ocsp.srf
+http://service.itk23.ru/tsp/tsp.srf
+http://service.itk23.ru/itcomTSP/tsp.srf
+213.109.72.155 (80/tcp)
 
-https://www.holodilnik.ru/smartphones_gadgets/
-195.211.221.55 (80/tcp, 443/tcp)
-https://crm.holodilnik.ru/login
-83.69.203.11 (22/tcp, 80/tcp, 443/tcp, 443/https)
+http://service.uc-itcom.ru/itcom2019-r/ocsp.srf
+213.109.72.70 (80/tcp, 443/tcp)
 
-https://www.wildberries.ru/catalog/bytovaya-tehnika
-185.138.252.1 (80/tcp, 443/tcp)
-185.138.253.1 (80/tcp, 443/tcp)
-185.138.254.1 (80/tcp, 443/tcp)
-https://seller.wildberries.ru/login/
-185.62.200.36 (80/tcp, 443/tcp, 443/https)
-http://streamer.wildberries.ru/
-194.1.214.101 (80/tcp, 443/tcp)
-https://mirror.wildberries.ru/
-194.1.214.254 (80/tcp, 443/tcp)
+http://ocsp.keydisk.ru/ocsp-cp-am-2020/ocsp.srf
+http://ocsp.keydisk.ru/OCSP-11339-2020/OCSP.srf
+http://ocsp.keydisk.ru/OCSP-11339-2019n/OCSP.srf
+http://ocsp.keydisk.ru/OCSP-12130-2020/OCSP.srf
+http://ocsp.keydisk.ru/ocsp-cp-2020/ocsp.srf
+http://ocsp.keydisk.ru/ocsp-cp-2021/ocsp.srf
+91.239.5.19 (80/tcp)
 
-https://www.biglion.ru/shops/kupons/
-178.248.234.2 (80/tcp, 443/tcp)
-https://edit.biglion.ru/
-178.21.12.238 (80/tcp, 443/tcp, 443/https, 3443/tcp, 3443/https)
-http://merchant.frendi.ru/
-178.21.12.237 (80/tcp, 443/tcp, 1443/tcp, 1443/https, 2443/tcp, 2443/https, 3443/tcp, 3443/https)
-https://pay.biglion.ru/
-178.21.12.235 (80/tcp, 443/tcp, 1443/tcp, 1443/https, 2443/tcp, 2443/https, 3443/tcp, 3443/https)
+http://binuc.belinfonalog.ru/ocsp/ocsp.srf
+82.151.111.189 (80/tcp)
 
-https://www.dns-shop.ru/catalog/17a8e9ed16404e77/stirka-i-sushka/
-185.165.123.176 (80/tcp, 443/tcp, 443/https)
-https://prozapass.ru/
-23.105.230.84 (21/tcp, 25/tcp, 80/http, 443/https)
-https://club.dns-shop.ru/digest/
-185.165.123.145 (22/tcp, 80/tcp, 443/tcp)
+http://ocsp1.rosatom.ru/ocsp4/ocsp.srf
+http://tsp1.rosatom.ru/TSP3/tsp.srf
+http://ocsp1.rosatom.ru/ocsp5/ocsp.srf
+http://ocsp1.rosatom.ru/ocsp3/ocsp.srf
+http://ocsp1.rosatom.ru/ocsp2/ocsp.srf
+http://ocsp1.rosatom.ru/ocsp/ocsp.srf
+93.187.73.22 (80/tcp)
 
-https://www.lamoda.ru/men-home/?sitelink=topmenuM
-https://affiliates.lamoda.ru/partner/login
-178.248.232.33 (80/tcp, 443/tcp)
-https://job.lamoda.ru/
-https://gatemgmt.lamoda.ru/
-178.248.234.51 (80/tcp, 443/tcp)
+http://ocsp2.rosatom.ru/ocsp4/ocsp.srf
+http://tsp2.rosatom.ru/TSP3/tsp.srf
+http://ocsp2.rosatom.ru/ocsp5/ocsp.srf
+http://ocsp2.rosatom.ru/ocsp3/ocsp.srf
+http://ocsp2.rosatom.ru/ocsp2/ocsp.srf
+http://ocsp2.rosatom.ru/ocsp/ocsp.srf
 
-https://www.220-volt.ru/
-193.93.30.3 (80/tcp, 443/tcp)
-https://franchise.220-volt.ru/pvz/
-https://webpvz.220-volt.ru/
-193.93.29.82 (443/tcp)
-https://fulfillment.220-volt.ru/
-84.52.74.15 (80/tcp, 443/tcp)
+http://ssca.rosatom.ru/ocspq/ocsp.srf
+93.187.73.154 (80/tcp, 443/tcp)
 
-https://www.technopark.ru/krupnaya-bytovaya-tehnika/
-178.248.235.59 (80/tcp, 443/tcp)
-https://club.techport.ru/catalog/otdelnostojaschaja-bytovaja-tehnika
-95.131.25.23 (80/tcp, 443/tcp)
+http://ocsp2012.izhtender.ru/ocsp/ocsp.srf
+http://ocspr2012.izhtender.ru/ocsp/ocsp.srf
+82.202.172.188 (80/tcp, 443/tcp)
 
-https://www.mvideo.ru/tehnika-dlya-kuhni
-185.71.67.88 (80/tcp, 443/tcp)
-https://api.mvideo.ru/
-https://webapi.mvideo.ru/
-185.71.67.88 (80/tcp, 443/tcp)
+http://imc63.ru/uc2018/ocsp/ocsp.srf
+213.156.210.18 (80/tcp, 443/tcp)
 
-https://www.onlinetrade.ru/catalogue/bytovaya_tekhnika-c43/
-185.169.155.27 (80/tcp, 443/tcp)
-http://exch.onlinetrade.ru/
-93.182.35.236 (80/tcp, 443/tcp, 443/https, 8081/tcp, 8443/tcp, 8443/https)
+http://tax4.tensor.ru/ocsp-tensorca-2021_gost2012/ocsp.srf
+http://tax4.tensor.ru/ocsp-tensorca-2021_cp_gost2012/ocsp.srf
+http://tax4.tensor.ru/tsp-tensor_gost2012/tsp.srf
+91.213.144.43 (80/tcp, 443/tcp)
 
-https://price.ru/bytovaya-tehnika/
-https://biz.price.ru/welcome
-178.248.238.249 (80/tcp, 443/tcp)
+http://uc.ktkt.ru/ocsp/ocsp.srf
+http://uc.ktkt.ru/ocsp-g2/ocsp.srf
+http://uc.ktkt.ru/ocsp-g4/ocsp.srf
+195.98.95.114 (80/tcp, 443/tcp)
+
+http://ocsp.uckordon.ru/ocsp/ocsp.srf
+http://ocsp.uckordon.ru/ocsp_2012/ocsp.srf
+80.254.101.230 (80/tcp, 443/tcp)
+
+http://ra.docshell.ru/ocsp/ocsp.srf
+http://ra.docshell.ru/ocsp_2021/ocsp.srf
+http://ra.docshell.ru/ocsp_2020/ocsp.srf
+http://ra.rosreport.ru/ocsp/ocsp.srf
+46.29.11.68 (80/tcp)
+
+http://www.ocsp20.most-info.ru/ocsp/ocsp.srf
+http://www.ocsp20.most-info.ru/ocsp30/ocsp.srf
+http://www.ocsp20.most-info.ru/ocsp70/ocsp.srf
+85.12.217.152 (80/tcp)
+
+http://ocsp3.ncarf.ru/ocsp/ocsp.srf
+217.21.215.38 (80/tcp)
+
+http://ra20.tax23.ru/ocsp/ocsp.srf
+http://ra20.tax23.ru/ocsp2003/ocsp.srf
+195.239.161.204 (80/tcp, 443/tcp)
+
+http://ocsp2.ntssoft.ru/ocsp12-02/ocsp.srf
+194.213.21.163 (80/tcp)
+
+http://qs.cryptopro.ru/tsp/tsp.srf
+193.37.157.83 (80/tcp, 443/tcp)
+
+http://tsp.taxcom.ru/tsp/tsp.srf
+193.0.214.42 (443/tcp)
+193.0.214.242 (80/tcp, 443/tcp)
+
+http://www.cryptopro.ru/tsp/tsp.srf
+http://www.cryptopro.ru/ocspnc2/ocsp.srf
+178.248.239.130 (80/tcp, 443/tcp)
+
+http://tsp.cryptopro.ru/tsp2012/tsp.srf
+http://tsp.cryptopro.ru/tsp20/tsp.srf
+193.37.157.11 (80/tcp, 443/tcp)
+
+http://pki.tax.gov.ru/ocsp/ocsp.srf
+http://pki.tax.gov.ru/tsp/tsp.srf
+213.24.64.95 (80/tcp, 443/tcp)
+
+http://ocsp2.profi-mo.ru/ocsp2/ocsp.srf
+77.236.61.16 (80/tcp)
+
+http://ca.rzd.ru/ocsp-3/ocsp.srf
+217.175.155.160 (80/tcp)
+
+http://ocsp2.rus-telecom.ru/rta1/
+http://ocsp2.rus-telecom.ru/rta1/
+95.167.169.2 (80/tcp, 443/tcp)
+
+http://caocsp.atlas-2.ru/ocsp/ocsp.srf
+80.246.18.43 (80/tcp)
+
+http://pki.skbkontur.ru/ocspqca2012/ocsp.srf
+46.17.206.19 (80/tcp)
+
+http://ocsp.sovcombank.ru/ocsp/ocsp.srf
+91.217.180.117 (80/tcp, 443/tcp)
+
+http://ca.iac.spb.ru/ocsp39/ocsp.srf
+217.195.78.217 (80/tcp, 443/tcp)
+
+http://ocsp20.taxcom.ru/ocsp/ocsp.srf
+http://ocsp2012.taxcom.ru/ocsp/ocsp.srf
+193.0.214.247 (80/tcp)
