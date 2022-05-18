@@ -1,132 +1,120 @@
 
-http://ocsp.gisca.ru/qualifiedgiscav3/ocsp.srf
-http://ocsp.gisca.ru/qualifiedgisca2020/ocsp.srf
-95.161.154.198 (80/tcp)
-
-http://service.itk23.ru/itcom2020/ocsp.srf
-http://service.itk23.ru/itcom2019-r/ocsp.srf
-http://service.itk23.ru/ocsp2cav0/ocsp.srf
-http://service.itk23.ru/itk2012-2019/ocsp.srf
-http://service.itk23.ru/itk2012-2020/ocsp.srf
-http://service.itk23.ru/tsp/tsp.srf
-http://service.itk23.ru/itcomTSP/tsp.srf
-213.109.72.155 (80/tcp)
-
-http://service.uc-itcom.ru/itcom2019-r/ocsp.srf
-213.109.72.70 (80/tcp, 443/tcp)
-
-http://ocsp.keydisk.ru/ocsp-cp-am-2020/ocsp.srf
-http://ocsp.keydisk.ru/OCSP-11339-2020/OCSP.srf
-http://ocsp.keydisk.ru/OCSP-11339-2019n/OCSP.srf
-http://ocsp.keydisk.ru/OCSP-12130-2020/OCSP.srf
-http://ocsp.keydisk.ru/ocsp-cp-2020/ocsp.srf
-http://ocsp.keydisk.ru/ocsp-cp-2021/ocsp.srf
-91.239.5.19 (80/tcp)
-
-http://binuc.belinfonalog.ru/ocsp/ocsp.srf
-82.151.111.189 (80/tcp)
-
-http://ocsp1.rosatom.ru/ocsp4/ocsp.srf
-http://tsp1.rosatom.ru/TSP3/tsp.srf
-http://ocsp1.rosatom.ru/ocsp5/ocsp.srf
-http://ocsp1.rosatom.ru/ocsp3/ocsp.srf
-http://ocsp1.rosatom.ru/ocsp2/ocsp.srf
-http://ocsp1.rosatom.ru/ocsp/ocsp.srf
-93.187.73.22 (80/tcp)
-
-http://ocsp2.rosatom.ru/ocsp4/ocsp.srf
-http://tsp2.rosatom.ru/TSP3/tsp.srf
-http://ocsp2.rosatom.ru/ocsp5/ocsp.srf
-http://ocsp2.rosatom.ru/ocsp3/ocsp.srf
-http://ocsp2.rosatom.ru/ocsp2/ocsp.srf
-http://ocsp2.rosatom.ru/ocsp/ocsp.srf
-
-http://ssca.rosatom.ru/ocspq/ocsp.srf
-93.187.73.154 (80/tcp, 443/tcp)
-
-http://ocsp2012.izhtender.ru/ocsp/ocsp.srf
-http://ocspr2012.izhtender.ru/ocsp/ocsp.srf
-82.202.172.188 (80/tcp, 443/tcp)
-
-http://imc63.ru/uc2018/ocsp/ocsp.srf
-213.156.210.18 (80/tcp, 443/tcp)
-
-http://tax4.tensor.ru/ocsp-tensorca-2021_gost2012/ocsp.srf
-http://tax4.tensor.ru/ocsp-tensorca-2021_cp_gost2012/ocsp.srf
-http://tax4.tensor.ru/tsp-tensor_gost2012/tsp.srf
-91.213.144.43 (80/tcp, 443/tcp)
-
-http://uc.ktkt.ru/ocsp/ocsp.srf
-http://uc.ktkt.ru/ocsp-g2/ocsp.srf
-http://uc.ktkt.ru/ocsp-g4/ocsp.srf
-195.98.95.114 (80/tcp, 443/tcp)
-
-http://ocsp.uckordon.ru/ocsp/ocsp.srf
-http://ocsp.uckordon.ru/ocsp_2012/ocsp.srf
-80.254.101.230 (80/tcp, 443/tcp)
-
-http://ra.docshell.ru/ocsp/ocsp.srf
-http://ra.docshell.ru/ocsp_2021/ocsp.srf
-http://ra.docshell.ru/ocsp_2020/ocsp.srf
-http://ra.rosreport.ru/ocsp/ocsp.srf
-46.29.11.68 (80/tcp)
-
-http://www.ocsp20.most-info.ru/ocsp/ocsp.srf
-http://www.ocsp20.most-info.ru/ocsp30/ocsp.srf
-http://www.ocsp20.most-info.ru/ocsp70/ocsp.srf
-85.12.217.152 (80/tcp)
-
-http://ocsp3.ncarf.ru/ocsp/ocsp.srf
-217.21.215.38 (80/tcp)
-
-http://ra20.tax23.ru/ocsp/ocsp.srf
-http://ra20.tax23.ru/ocsp2003/ocsp.srf
-195.239.161.204 (80/tcp, 443/tcp)
-
-http://ocsp2.ntssoft.ru/ocsp12-02/ocsp.srf
-194.213.21.163 (80/tcp)
-
-http://qs.cryptopro.ru/tsp/tsp.srf
-193.37.157.83 (80/tcp, 443/tcp)
-
-http://tsp.taxcom.ru/tsp/tsp.srf
-193.0.214.42 (443/tcp)
-193.0.214.242 (80/tcp, 443/tcp)
-
-http://www.cryptopro.ru/tsp/tsp.srf
-http://www.cryptopro.ru/ocspnc2/ocsp.srf
-178.248.239.130 (80/tcp, 443/tcp)
-
-http://tsp.cryptopro.ru/tsp2012/tsp.srf
-http://tsp.cryptopro.ru/tsp20/tsp.srf
-193.37.157.11 (80/tcp, 443/tcp)
-
-http://pki.tax.gov.ru/ocsp/ocsp.srf
-http://pki.tax.gov.ru/tsp/tsp.srf
-213.24.64.95 (80/tcp, 443/tcp)
-
-http://ocsp2.profi-mo.ru/ocsp2/ocsp.srf
-77.236.61.16 (80/tcp)
-
-http://ca.rzd.ru/ocsp-3/ocsp.srf
-217.175.155.160 (80/tcp)
-
-http://ocsp2.rus-telecom.ru/rta1/
-http://ocsp2.rus-telecom.ru/rta1/
-95.167.169.2 (80/tcp, 443/tcp)
-
-http://caocsp.atlas-2.ru/ocsp/ocsp.srf
-80.246.18.43 (80/tcp)
-
-http://pki.skbkontur.ru/ocspqca2012/ocsp.srf
-46.17.206.19 (80/tcp)
-
-http://ocsp.sovcombank.ru/ocsp/ocsp.srf
-91.217.180.117 (80/tcp, 443/tcp)
-
-http://ca.iac.spb.ru/ocsp39/ocsp.srf
-217.195.78.217 (80/tcp, 443/tcp)
-
-http://ocsp20.taxcom.ru/ocsp/ocsp.srf
-http://ocsp2012.taxcom.ru/ocsp/ocsp.srf
-193.0.214.247 (80/tcp)
+https://cdnv.nashstore.ru
+178.176.128.128 (80/tcp, 443/tcp, 444/tcp, 8443/tcp)
+https://www.rossiya-airlines.com/
+217.195.76.247 (80/tcp, 443/tcp)
+https://www.alrosa.aero/
+213.159.210.76 (80/tcp, 443/tcp)
+https://avia.gazprom.ru/
+195.218.200.155 (80/tcp, 443/tcp)
+https://www.rossiya-airlines.com/
+217.195.76.247 (80/tcp, 443/tcp)
+http://sila-aero.ru/
+87.236.16.135 (80/tcp, 443/tcp)
+https://www.yakutia.aero/
+185.169.155.62 (80/tcp, 443/tcp)
+https://aaq.aero/
+82.202.190.198 (80/tcp, 443/tcp)
+https://www.komiaviatrans.ru/
+178.210.92.25 (80/tcp, 443/tcp)
+http://www.krasaviaport.ru/
+195.208.1.105 (80/tcp, 443/tcp)
+http://www.airola.ru/
+92.53.96.177 (80/tcp, 443/tcp)
+https://pobedilovo43.ru/
+46.255.97.148 (80/tcp, 443/tcp)
+https://www.aeroport-mama.ru/
+37.140.192.241 (80/tcp, 443/tcp)
+https://airport-makhachkala.ru/
+217.172.26.140 (80/tcp, 443/tcp)
+https://www.dme.ru/
+195.218.193.151 (80/tcp, 443/tcp)
+http://www.avianadym.ru/
+195.208.1.106 (80/tcp, 443/tcp)
+http://nalchik-airport.ru/
+195.24.68.22 (80/tcp, 443/tcp)
+https://www.airport-norilsk.ru/
+178.210.71.112 (443/tcp)
+https://nyaganaero.ru/
+https://www.aviamordovia.ru/
+46.254.20.38 (80/tcp, 443/tcp)
+https://flystw.com/
+31.31.196.134 (80/tcp, 443/tcp)
+https://aer.aero/
+82.202.190.198 (80/tcp, 443/tcp)
+http://ulk.aero/
+92.53.64.62 (80/tcp, 443/tcp)
+https://www.bankfax.ru/
+92.255.104.152 (80/tcp, 443/tcp)
+https://www.ap22.ru/
+82.202.172.15 (80/tcp, 443/tcp)
+https://biwork.ru/
+185.200.242.179 (80/tcp, 443/tcp)
+https://tolknews.ru/
+92.255.104.41 (80/tcp, 443/tcp)
+https://1line.info/
+94.228.116.35 (80/tcp, 443/tcp)
+https://prufy.ru/
+85.119.149.231 (80/tcp, 443/tcp)
+https://ufanotes.ru/
+94.228.118.7 (80/tcp, 443/tcp)
+https://sterlegrad.ru/
+89.108.107.180 (80/tcp, 443/tcp)
+https://www.infpol.ru/
+82.202.170.102 (80/tcp, 443/tcp)
+https://www.baikal-media.ru/
+185.200.242.185 (80/tcp, 443/tcp)
+https://chernovik.net/
+89.223.24.7 (80/tcp, 443/tcp)
+https://www.gtrkmariel.ru/
+82.202.170.86 (80/tcp, 443/tcp)
+https://yocity12.com/news/
+185.200.242.160 (80/tcp, 443/tcp)
+https://www.marpravda.ru/
+92.255.104.40 (80/tcp, 443/tcp)
+https://pg12.ru/news
+212.41.26.46 (80/tcp, 443/tcp)
+https://ampravda.ru/
+185.200.242.15 (80/tcp, 443/tcp)
+https://vdvsn.ru/
+185.219.40.214 (80/tcp, 443/tcp)
+http://rusnord.ru/
+89.108.122.229 (80/tcp, 443/tcp)
+http://www.br-tvr.ru/
+80.247.38.109 (80/tcp, 443/tcp)
+https://riastrela.ru/
+194.58.122.214 (80/tcp, 443/tcp)
+https://klintsy.info/
+95.181.181.21 (80/tcp, 443/tcp)
+https://newsbryansk.ru/
+91.215.41.20 (80/tcp, 443/tcp)
+https://tomiks33.ru/
+185.219.40.33 (80/tcp, 443/tcp)
+https://volgograd-trv.ru/
+80.87.203.23 (80/tcp, 443/tcp)
+https://www.vpgazeta.ru/
+91.142.90.228 (80/tcp, 443/tcp)
+https://volgograd24.tv/
+213.159.210.204 (80/tcp, 443/tcp)
+https://onlinevologda.ru/
+80.87.203.17 (80/tcp, 443/tcp)
+https://vologda-poisk.ru/
+92.53.80.162 (80/tcp, 443/tcp)
+https://nsknews.info/
+193.19.103.237 (80/tcp, 443/tcp)
+https://gorod55.ru/
+185.175.45.19 (80/tcp, 443/tcp)
+https://superomsk.ru/
+94.137.20.250 (80/tcp, 443/tcp)
+https://ngs55.ru/
+195.19.220.26 (80/tcp, 443/tcp)
+https://newsomsk.ru/
+82.202.170.70 (80/tcp, 443/tcp)
+https://omskinform.ru/
+90.156.243.24 (80/tcp, 443/tcp)
+https://bloknot-rostov.ru/
+185.66.87.242 (80/tcp, 443/tcp)
+https://gorodn.ru/
+185.200.242.18 (80/tcp, 443/tcp)
+https://rv-ryazan.ru/
+212.193.48.97 (80/tcp, 443/tcp)
