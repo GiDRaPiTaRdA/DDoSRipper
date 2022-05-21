@@ -21,7 +21,7 @@ protocol="socks5"
 sourcefile="automation/proxy/data/socks5.csv"
 targetfile="automation/proxy/data/parcedproxies.txt"
 proxychainsrawconfig="automation/proxy/data/proxychains-raw.conf"
-proxychainsconfig="automation/proxy/data/proxychainstest.conf"
+proxychainsconfig="automation/proxy/data/proxychains.conf"
 
 ipregex='[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]{2,5}'
 
@@ -64,7 +64,7 @@ wait
 proxiesverified=($(cat $proxychekedfile))
 rm $proxychekedfile
 
-echo -e "${NC}Verified ${#proxiesverified[@]}"
+echo -e "${NC}Verified ${#proxiesverified[@]}\\n"
 
 
 
@@ -77,8 +77,9 @@ do
      printf "socks5 %s\n" "$(echo $proxyv | tr ":" " ")" >> $proxychainsconfig
 done
 
-echo "Exported to $proxychainsconfig"
+echo -e "Exported to ${BLUE}$proxychainsconfig${NC}"
 
 
 # Publish
-./automation/publish.sh
+echo -e "${YELLOW}Publish to GIT${NC}"
+sudo ./automation/publish.sh
