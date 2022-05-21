@@ -12,10 +12,10 @@ BLUEL='\033[1;34m'
 GREENL='\033[0;32m'
 
 #proxy=$1
-timeout=20
+timeout=30
 url1=http://icanhazip.com
 url=https://www.google.com/
-retry=2
+retry=5
 
 protocol="socks5"
 sourcefile="automation/proxy/data/socks5.csv"
@@ -42,7 +42,7 @@ function check(){
 
        if [ ! -z "$response" ]
        then
-           echo -e "${GREEN}Connected${YELLOW} $(echo $response | awk '{print $2}') $(echo $response | awk '{print $1}')${NC} $proxy"
+           echo -e "${BLUEL}Connected${YELLOW} $(echo $response | awk '{print $2}') $(echo $response | awk '{print $1}')${NC} $proxy"
            echo $proxy >> $proxychekedfile
            break
        fi
@@ -52,6 +52,7 @@ function check(){
 }
 
 echo -e "\\n${RED}Check proxies${NC} $url"
+echo -e "${RED}protocol: ${NC}$protocol  ${RED}retry: ${NC}$retry  ${RED}timeout: ${NC}$timeout${NC}"
 # now loop through the above array
 for proxy in "${proxies[@]}"
 do
@@ -67,7 +68,6 @@ rm $proxychekedfile
 echo -e "${NC}Verified ${#proxiesverified[@]}\\n"
 
 
-
 # Export proxychains.conf
 cp $proxychainsrawconfig $proxychainsconfig
 echo "" >> $proxychainsconfig
@@ -77,9 +77,9 @@ do
      printf "socks5 %s\n" "$(echo $proxyv | tr ":" " ")" >> $proxychainsconfig
 done
 
-echo -e "Exported to ${BLUE}$proxychainsconfig${NC}"
+echo -e "Exported to ${BLUEL}$proxychainsconfig${NC}\\n"
 
 
 # Publish
-echo -e "${YELLOW}Publish to GIT${NC}"
-sudo ./automation/publish.sh
+#echo -e "${YELLOW}Publish to GIT${NC}"
+#sudo ./automation/publish.sh
