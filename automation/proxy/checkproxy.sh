@@ -9,7 +9,7 @@ retry=4
 sourcefile="automation/proxy/data/socks5.csv"
 targetfile="automation/proxy/data/parcedproxies.txt"
 
-ipregex='[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]'
+ipregex='[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]{2,5}'
 
 echo -e "${BLUEL}Parse IPs${NC}"
 grep -Eo $ipregex $sourcefile > $targetfile
