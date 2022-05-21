@@ -1,5 +1,16 @@
 #!/bin/bash
 
+YELLOW='\033[0;33m'
+NC='\033[0m' # No Color
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+RED='\033[0;31m'
+
+REDL='\033[1;31m'
+YELLOWL='\033[1;33m'
+BLUEL='\033[1;34m'
+GREENL='\033[0;32m'
+
 proxy=$1
 timeout=20
 url1=http://icanhazip.com
@@ -11,10 +22,17 @@ targetfile="automation/proxy/data/parcedproxies.txt"
 
 ipregex='[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]{2,5}'
 
-echo -e "${BLUEL}Parse IPs${NC}"
-grep -Eo $ipregex $sourcefile > $targetfile
-echo -e "${GREENL}Found $(wc -l $targetfile)${NC}"
+echo -e "${BLUEL}Parse proxies...${NC}"
+proxies=($(grep -Eo $ipregex $sourcefile))
+echo -e "${GREENL}Found ${#proxies[@]} entries in $sourcefile ${NC}"
 
+
+## now loop through the above array
+for i in "${proxies[@]}"
+do
+   echo "$i"
+   # or do whatever with individual element of the array
+done
 exit 0
 
 for i in {1..$retry}
