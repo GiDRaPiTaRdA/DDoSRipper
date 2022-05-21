@@ -33,6 +33,7 @@ proxychekedfile=/tmp/proxychecked.txt
 touch $proxychekedfile
 echo -n "" > $proxychekedfile
 
+# https://github.com/ckam/proxy_checker/blob/master/checkProxy.sh
 function check(){
     proxy=$1
     for ((i = 1 ; i <= $retry ; i++));
