@@ -17,8 +17,11 @@ url1=http://icanhazip.com
 url=https://www.google.com/
 retry=2
 
+protocol="socks5"
 sourcefile="automation/proxy/data/socks5.csv"
 targetfile="automation/proxy/data/parcedproxies.txt"
+proxychainsrawconfig="automation/proxy/data/proxychains-raw.conf"
+proxychainsconfig="automation/proxy/data/proxychainstest.conf"
 
 ipregex='[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]{2,5}'
 
@@ -28,7 +31,7 @@ echo -e "${GREENL}Found ${#proxies[@]} entries${NC} $sourcefile"
 
 proxychekedfile=/tmp/proxychecked.txt
 touch $proxychekedfile
-echo "" > $proxychekedfile
+echo -n "" > $proxychekedfile
 
 function check(){
     proxy=$1
@@ -39,7 +42,7 @@ function check(){
 
        if [ ! -z "$response" ]
        then
-           echo "Connected $(echo $response | awk '{print $2}') $proxy"
+           echo -e "${GREEN}Connected${YELLOW} $(echo $response | awk '{print $2}') $(echo $response | awk '{print $1}')${NC} $proxy"
            echo $proxy >> $proxychekedfile
            break
        fi
@@ -48,7 +51,7 @@ function check(){
     done
 }
 
-echo "Start check proxies on $url"
+echo -e "\\n${RED}Check proxies${NC} $url"
 # now loop through the above array
 for proxy in "${proxies[@]}"
 do
@@ -57,6 +60,25 @@ done
 
 wait
 
-exit 0
+#readarray -t proxiesverified < $proxychekedfile
+proxiesverified=($(cat $proxychekedfile))
+rm $proxychekedfile
 
-echo "Verified ${#proxiesverified[@]}"
+echo -e "${NC}Verified ${#proxiesverified[@]}"
+
+
+
+# Export proxychains.conf
+cp $proxychainsrawconfig $proxychainsconfig
+echo "" >> $proxychainsconfig
+for proxyv in "${proxiesverified[@]}"
+do
+     # format proxy
+     printf "socks5 %s\n" "$(echo $proxyv | tr ":" " ")" >> $proxychainsconfig
+done
+
+echo "Exported to $proxychainsconfig"
+
+
+# Publish
+./automation/publish.sh
