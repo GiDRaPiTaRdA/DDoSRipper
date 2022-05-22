@@ -19,7 +19,7 @@ then
     echo -e "${GREEN}copy from ${NC}$tmp${GREEN} to ${NC}${proxy}"
     sudo cp $tmp $proxy
 else
-    echo -e "${REDfile${NC} ${tmp} ${RED}does not exist or empty${NC}"
+    echo -e "${RED}file${NC} ${tmp} ${RED}does not exist or empty${NC}"
 fi
 
 if [ -e $tmp ]
