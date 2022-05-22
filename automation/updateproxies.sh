@@ -2,6 +2,8 @@
 
 YELLOW='\033[0;33m'
 RED='\033[0;31m'
+GREEN='\033[0;32m'
+GRAY='\033[0;37m'
 NC='\033[0m' # No Color
 
 repo=https://raw.githubusercontent.com/GiDRaPiTaRdA/DDoSRipper/master
@@ -12,11 +14,14 @@ proxy=/etc/proxychains.conf
 echo -e "${YELLOW}Fetch proxychains.conf${NC}"
 sudo wget $repoproxy -O $tmp
 
-if [ -e x.txt ]
+if [ -s $tmp ]
 then
+    echo -e "${GREEN}copy from ${NC}$tmp${GREEN} to ${NC}${proxy}"
     sudo cp $tmp $proxy
-    sudo rm $tmp
 else
-    echo -e "${RED}${tmp} does not exist${NC}"
+    echo -e "${tmp} ${RED}does not exist or empty${NC}"
 fi
+
+echo -e "${GRAY}remove${NC} $tmp"
+sudo rm $tmp
 
