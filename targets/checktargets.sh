@@ -15,8 +15,10 @@ GREENL='\033[0;32m'
 sourcefile="targets/rawtargets.txt"
 targetfile="targets/targets.txt"
 
+ipregex='[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
+
 echo -e "${BLUEL}Parse IPs${NC}"
-grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' $sourcefile > $targetfile
+grep -Eo $ipregex $sourcefile > $targetfile
 echo -e "${GREENL}Found $(wc -l $targetfile)${NC}"
 
 ports="20,21,22,25,53,80,443,110,123,143,465,631,993,995"
