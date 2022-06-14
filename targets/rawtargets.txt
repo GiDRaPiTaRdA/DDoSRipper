@@ -1,160 +1,66 @@
+http://pravo.gov.ru/
+95.173.147.130 (80/tcp)
+95.173.157.130 (80/tcp)
+http://publication.pravo.gov.ru/
+95.173.147.131 (80/tcp)
+95.173.157.131 (80/tcp)
 
-https://faktura.ru/
-https://bank.faktura.ru/
-194.85.125.6 (443/tcp)
-https://balance.faktura.ru/auth/realms/mdse/
-https://elf.faktura.ru/elf/app/
-https://business.faktura.ru/f2b/
-194.85.125.1 (443/tcp)
+https://vsrf.ru/
+https://data.vsrf.ru/
+https://forum.vsrf.ru/
+95.173.156.120 (80/tcp, 443/tcp)
 
-http://www.iturupbank.ru/
-212.6.2.83 (80/tcp)
-https://online.iturupbank.ru/web_banking/protected/welcome.jsf
-212.6.2.87 (443/tcp)
-https://biz.iturupbank.ru/ibank2/
-212.6.2.82 (443/tcp)
+https://sudrf.ru/
+https://techportal.sudrf.ru/
+84.42.111.139 (80/tcp)
 
-https://koshelev-bank.ru/
-92.255.106.120 (443/tcp)
-https://online.k-bnk.ru/ibank2/
-195.151.255.45 (443/tcp)
+http://bsr1.sudrf.ru/
+79.133.87.17 (80/tcp)
 
-https://kbb.ru/
-62.231.189.8 (443/tcp)
+https://bsr.sudrf.ru/
+84.42.111.136 (80/tcp, 443/tcp)
 
-https://novikom.ru/individuals/
-85.202.165.114 (443/tcp)
-https://online.novikom.ru/#/registration?redirect=%2F
-85.202.165.123 (443/tcp)
+https://16ms0023.court-rt-equeue.tat.sudrf.ru/admin/auth
+85.233.64.114 (80/tcp, 443/tcp)
 
-https://www.lanta.ru/business/
-178.159.254.71 (443/tcp)
-https://ibank2.lanta.ru/ibank2/#/
-194.190.15.33 (443/tcp)
+https://rgup.ru/
+https://rgup.ru/search
+31.31.198.114 (80/tcp, 443/tcp)
 
-https://www.moskb.ru/
-92.255.106.126 (443/tcp)
-https://ibank-fl.moskb.ru/web_banking/protected/welcome.jsf
-195.93.241.66 (443/tcp)
-https://ibank.moskb.ru/ibank2/
-195.93.241.67 (443/tcp)
+https://rsuj.ru/
+77.222.57.148 (80/tcp, 443/tcp)
 
-https://nbsrf.ru/
-178.177.3.11 (443/tcp)
+https://priem.rsuj.ru/
+https://fpk.rsuj.ru/login/index.php
+185.141.124.234 (80/tcp, 443/tcp)
 
-https://www.pervbank.ru/personal/
-5.172.24.152 (443/tcp)
-31.28.105.86 (443/tcp)
+http://arbitr.ru/
+79.133.87.42 (80/tcp)
 
-https://www.pervbank.ru/personal/
-31.28.105.86 (443/tcp)
-5.172.24.152 (443/tcp)
-https://dbo.pervbank.ru/ibank2/
-31.28.105.86 (443/tcp)GHbdsn!
-5.172.24.152 (443/tcp)
+http://www.ksrf.ru/
+http://vestnik.ksrf.ru/
+http://scpublish.ksrf.ru/
+http://decision.ksrf.ru/
+https://petition.ksrf.ru/
+95.173.151.218 (80/tcp, 443/tcp)
 
-https://www.promtransbank.ru/
-178.210.84.159 (443/tcp)
+http://media3.ksrf.ru/
+95.173.147.218 (80/tcp)
 
-https://solidbank.ru/
-94.228.116.53 (443/tcp)
-https://ib.solidbank.ru:8443/
-85.15.67.179 (8443)
-https://ibr.solidbank.ru:8443/
-62.249.142.51 (8443)
+http://media2.ksrf.ru/
+95.173.147.221 (80/tcp)
 
-https://capitalbank.ru/
-5.188.189.58 (443/tcp)
+http://media.ksrf.ru/
+95.173.151.216 (80/tcp)
 
-https://www.vlbb.ru/
-51.250.126.12 (443/tcp)
+http://medias.ksrf.ru/
+95.161.49.4 (80/tcp)
 
-https://bankvl.ru/
-213.176.242.102 (443/tcp)
-185.236.65.26 (443/tcp)
+http://ksmail.ksrf.ru/
+95.173.151.217 (80/tcp)
 
-https://www.vtb.ru/
-195.242.82.13 (443/tcp)
-https://online.vtb.ru/login
-185.179.144.43 (443/tcp)
-
-https://euroalliance.ru/
-77.87.212.15 (443/tcp)
-https://online.euroalliance.ru/web_banking/protected/welcome.jsf
-217.175.39.154 (443/tcp)
-https://ibank.euroalliance.ru/ibank2/
-87.255.237.154 (443/tcp)
-
-https://www.bancaintesa.ru/
-194.110.202.41 (443/tcp)
-https://digitale.bancaintesa.ru/ru/html/login.html
-194.110.202.47 (443/tcp)
-
-https://mspbank.ru/
-31.177.78.183 (443/tcp)
-https://msponline.mspbank.ru/rbr_wr/
-212.119.219.153 (443/tcp)
-https://moymsp.mspbank.ru/ru/html/login.html
-212.119.219.155 (443/tcp)
-
-https://www.ns-bank.ru/
-178.210.82.104 (443/tcp)
-
-https://www.tavrich.ru
-193.110.237.253 (443/tcp)
-https://fiz.tavrich.ru/elf/app/
-194.85.125.2 (443/tcp)
-
-https://nbdbank.ru/
-79.137.239.252 (443/tcp)
-
-https://www.nico-bank.ru/
-91.213.130.20 (443/tcp)
-
-https://pskb.com/
-193.238.118.80 (443/tcp)
-https://ibank2.pskb.com/ibank2/
-193.238.118.65 (443/tcp)
-
-https://priovtb.com/
-46.173.222.33 (443/tcp)
-https://fl.priovtb.com/
-91.213.142.35 (443/tcp)
-
-https://banksaratov.ru
-37.140.192.182 (443/tcp)
-
-https://www.sberbank.ru/ru/person
-194.54.14.168 (443/tcp)
-https://online.sberbank.ru/CSAFront/index.do
-194.54.14.131 (443/tcp)
-
-https://siab.ru/
-91.190.81.115 (443/tcp)
-https://online.siab.ru/
-91.220.218.145 (443/tcp)
-
-https://www.sibsoc.ru/
-85.193.72.51 (443/tcp)
-
-https://www.energotransbank.com/
-194.126.160.114 (443/tcp)
-
-https://www.nskbl.ru/private/
-109.237.110.153 (443/tcp)
-https://lk.nskbl.ru/
-95.170.139.143 (443/tcp)
-https://ibank.nskbl.ru/
-92.127.154.178 (443/tcp)
-95.170.139.8 (443/tcp)
-109.232.250.39 (443/tcp)
-
-https://www.psbank.ru/
-193.200.10.123 (443/tcp)
-https://ib2.psbank.ru/login
-91.223.63.207 (443/tcp)
-https://business.psbank.ru/
-193.200.10.12 (443/tcp)
-https://corporate.psbank.ru/
-91.223.63.17 (443/tcp)
-
+http://www.vkks.ru/
+http://www.cdep.ru/
+http://vekrf.ru/
+http://ssrf.ru/
+84.42.111.137 (80/tcp, 443/tcp)
