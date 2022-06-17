@@ -1,66 +1,142 @@
-http://pravo.gov.ru/
-95.173.147.130 (80/tcp)
-95.173.157.130 (80/tcp)
-http://publication.pravo.gov.ru/
-95.173.147.131 (80/tcp)
-95.173.157.131 (80/tcp)
 
-https://vsrf.ru/
-https://data.vsrf.ru/
-https://forum.vsrf.ru/
-95.173.156.120 (80/tcp, 443/tcp)
-
-https://sudrf.ru/
-https://techportal.sudrf.ru/
-84.42.111.139 (80/tcp)
-
-http://bsr1.sudrf.ru/
-79.133.87.17 (80/tcp)
-
-https://bsr.sudrf.ru/
-84.42.111.136 (80/tcp, 443/tcp)
-
-https://16ms0023.court-rt-equeue.tat.sudrf.ru/admin/auth
-85.233.64.114 (80/tcp, 443/tcp)
-
-https://rgup.ru/
-https://rgup.ru/search
-31.31.198.114 (80/tcp, 443/tcp)
-
-https://rsuj.ru/
-77.222.57.148 (80/tcp, 443/tcp)
-
-https://priem.rsuj.ru/
-https://fpk.rsuj.ru/login/index.php
-185.141.124.234 (80/tcp, 443/tcp)
-
-http://arbitr.ru/
-79.133.87.42 (80/tcp)
-
-http://www.ksrf.ru/
-http://vestnik.ksrf.ru/
-http://scpublish.ksrf.ru/
-http://decision.ksrf.ru/
-https://petition.ksrf.ru/
-95.173.151.218 (80/tcp, 443/tcp)
-
-http://media3.ksrf.ru/
-95.173.147.218 (80/tcp)
-
-http://media2.ksrf.ru/
-95.173.147.221 (80/tcp)
-
-http://media.ksrf.ru/
-95.173.151.216 (80/tcp)
-
-http://medias.ksrf.ru/
-95.161.49.4 (80/tcp)
-
-http://ksmail.ksrf.ru/
-95.173.151.217 (80/tcp)
-
-http://www.vkks.ru/
-http://www.cdep.ru/
-http://vekrf.ru/
-http://ssrf.ru/
-84.42.111.137 (80/tcp, 443/tcp)
+https://govdnr.ru/
+93.157.9.182 (80/tcp, 443/tcp)
+https://pravdnr.ru/
+31.133.58.15 (443/tcp)
+https://dnrsovet.su/
+185.104.248.60 (80/tcp, 443/tcp)
+https://supcourt-dpr.su/
+185.178.208.146 (80/tcp, 443/tcp)
+http://agroprom.minsvyazdnr.ru/
+https://mvddnr.ru/
+http://mdsdnr.ru/
+https://mpt-dnr.ru/
+https://minstroy-dnr.ru/
+http://goskomzemdnr.ru/
+https://postdonbass.com/
+http://mcxdnr.ru/
+https://mpt-dnr.ru/
+https://xn--b1akbpgy3fwa.xn--p1acf/
+https://torez24.ru/
+https://doc.minsvyazdnr.ru/
+https://xn--b1akbpgy3fwa.xn--p1acf/
+178.35.228.47 (80/tcp, 443/tcp)
+31.133.58.100 (80/tcp, 443/tcp)
+https://mgb-dnr.ru/
+http://mincult.govdnr.ru/
+http://mondnr.ru/
+http://donmintrans.ru/
+http://giapkdnr.msdnr.ru/
+178.35.228.47 (80/tcp, 443/tcp)
+http://mzdnr.ru/
+31.133.58.6 (80/tcp, 443/tcp)
+http://mid-dnr.su/
+93.157.9.254 (443/tcp)
+212.66.32.66 (443/tcp)
+https://mer.govdnr.ru/
+93.157.9.180 (80/tcp, 443/tcp)
+185.114.138.220 (80/tcp, 443/tcp)
+https://xn--h1aheeehel.xn--p1acf/
+185.9.147.200 (80/tcp, 443/tcp)
+https://mtspdnr.ru/
+92.255.106.176 (80/tcp, 443/tcp)
+http://mintek-dnr.ru/
+172.67.203.253 (80/tcp, 443/tcp)
+104.21.77.31 (80/tcp, 443/tcp)
+https://minfindnr.ru/
+185.114.136.149 (80/tcp, 443/tcp)
+https://minjust-dnr.ru/
+78.24.216.216 (80/tcp)
+http://dnmchs.ru/
+31.133.49.105 (80/tcp, 443/tcp)
+185.229.235.197 (80/tcp, 443/tcp)
+https://mininfodnr.ru/
+193.233.15.62 (80/tcp, 443/tcp)
+https://crb-dnr.ru/
+176.96.187.226 (80/tcp)
+31.133.58.198 (80/tcp, 443/tcp)
+https://ombudsman-dnr.ru/
+87.236.16.243 (80/tcp, 443/tcp)
+http://gosstat-dnr.ru/
+185.114.137.26 (80/tcp)
+http://gkgtn.ru/
+185.114.246.9 (80/tcp, 443/tcp)
+https://izpp.govdnr.ru/
+93.157.9.182 (80/tcp, 443/tcp)
+185.114.138.221 (80/tcp, 443/tcp)
+https://rcz-dnr.ru/
+31.133.49.144 (80/tcp, 443/tcp)
+http://rst-dnr.ru/
+92.63.193.103 (80/tcp, 443/tcp)
+http://gsdsd-dnr.ru/
+92.53.96.124 (80/tcp, 443/tcp)
+https://denis-pushilin.ru/
+185.178.208.185 (80/tcp, 443/tcp)
+http://doncsm.ru/
+31.31.196.208 (80/tcp, 443/tcp)
+http://phoenix-dnr.ru/
+185.114.136.60 (80/tcp, 443/tcp)
+https://donmarkets.ru/
+185.28.108.74 (80/tcp, 443/tcp)
+https://rprec.ru/
+31.133.49.189 (80/tcp, 443/tcp)
+http://ritualdnr.ru/
+185.114.138.242 (80/tcp)
+https://dnrailway.ru/
+188.120.242.133 (80/tcp, 443/tcp)
+http://www.vodadonbassa.ru/
+5.153.174.68 (443/tcp)
+109.254.13.162 (80/tcp)
+http://rams.dnronline.su/
+193.233.15.62 (80/tcp, 443/tcp)
+http://fgi.dnronline.su/
+193.233.15.62 (80/tcp, 443/tcp)
+https://mininfodnr.ru/
+193.233.15.62 (80/tcp, 443/tcp)
+http://oddr.info/
+185.178.208.137 (80/tcp, 443/tcp)
+http://glavstat.govdnr.ru/
+185.114.137.26 (80/tcp)
+http://www.mid-dnr.su/
+212.66.32.66 (443/tcp)
+93.157.9.254 (443/tcp)
+https://amvrosievka-gorsovet.umi.ru/
+88.212.251.4 (80/tcp, 443/tcp)
+https://admin-gorlovka.ru/
+193.238.75.217 (80/tcp, 443/tcp)
+http://debalcevo-dnr.ru/
+31.28.24.115 (80/tcp)
+http://dokuchaevskga.ucoz.org/
+193.109.247.20 (80/tcp, 443/tcp)
+http://gorod-donetsk.com/
+77.222.62.134 (80/tcp, 443/tcp)
+https://www.enakievo.org/
+217.112.35.72 (80/tcp, 443/tcp)
+http://ggudoad-dnr.ugletele.com/
+https://kirovskoe.ugletele.com/
+http://khartsyzsk.ugletele.com/
+31.133.58.100 (80/tcp, 443/tcp)
+178.35.228.47 (80/tcp, 443/tcp)
+31.133.58.102 (80/tcp, 443/tcp)
+http://novoaz-adm.3dn.ru/
+193.109.247.20 (80/tcp, 443/tcp)
+http://starobeshevo.usite.pro/
+193.109.247.20 (80/tcp, 443/tcp)
+http://www.shahtersk.org/
+193.109.247.20 (80/tcp, 443/tcp)
+https://gisnpa-dnr.ru/
+149.154.66.122 (80/tcp, 443/tcp)
+http://republic-tv.ru/
+212.66.37.43 (80/tcp, 443/tcp)
+http://fsdnr.com/
+37.140.192.112 (80/tcp, 443/tcp)
+https://tk-union.tv/
+185.28.108.188 (80/tcp, 443/tcp)
+https://gorlovka-tv.ru/
+31.31.196.82 (80/tcp, 443/tcp)
+http://fpdnr.ru/
+188.127.239.149 (80/tcp, 443/tcp)
+http://econri.org/
+92.53.96.249 (80/tcp, 443/tcp)
+https://dnr-live.ru/
+91.224.22.215 (80/tcp, 443/tcp)
